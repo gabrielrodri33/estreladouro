@@ -24,11 +24,27 @@
   }
 
   .botao {
-    @apply p-2 border-2 border-gray-600 rounded-3xl bg-yellow-500 hover:bg-yellow-600 hover:p-3 hover:text-white transition duration-700;
+    @apply p-2 border border-gray-600 rounded-3xl bg-gradient-to-r from-yellow-500 to-yellow-600 transition-all duration-700 delay-100;
+
+    &:hover {
+      @apply bg-gradient-to-l p-3;
+    }
   }
 
   .separator{
     @apply h-px border-t-0 bg-gradient-to-r from-transparent via-yellow-500 to-transparent opacity-25 dark:opacity-100;
+  }
+
+  .page{
+    @apply bg-zinc-950 text-white text-center;
+
+      & div{
+        @apply p-9;
+      }
+
+      & h1 {
+        @apply font-bold pt-10 text-4xl;
+    }
   }
 
   .rodape {
