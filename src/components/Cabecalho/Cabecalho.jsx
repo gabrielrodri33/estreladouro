@@ -28,6 +28,7 @@ export default function Cabecalho() {
           </Link>
         </li>
       </ul>
+      <hr className="separator"/>
     </header>
   );
 }

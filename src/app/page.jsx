@@ -1,8 +1,8 @@
-export default function Home() {
+export default function Pagee() {
   return (
     <>
-    <div>
-        <h2></h2>
+    <div class="">
+        <h2>asdas</h2>
     </div>
     </>
   )

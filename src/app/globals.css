@@ -12,10 +12,10 @@
 
 @layer components {
   .cabecalho {
-    @apply bg-zinc-950 p-2 text-black font-bold px-4 text-center text-4xl;
+    @apply bg-zinc-950 pt-2 text-black font-semibold text-center;
 
     & ul {
-      @apply flex flex-row text-lg items-center;
+      @apply flex flex-row text-lg items-center pb-2;
 
       & li {
         @apply mx-auto;
@@ -25,6 +25,10 @@
 
   .botao {
     @apply p-2 border-2 border-gray-600 rounded-3xl bg-yellow-500 hover:bg-yellow-600 hover:p-3 hover:text-white transition duration-700;
+  }
+
+  .separator{
+    @apply h-px border-t-0 bg-gradient-to-r from-transparent via-yellow-500 to-transparent opacity-25 dark:opacity-100;
   }
 
   .rodape {
