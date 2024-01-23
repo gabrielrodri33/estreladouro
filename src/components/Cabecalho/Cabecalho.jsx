@@ -9,7 +9,7 @@ export default function Cabecalho() {
           <Image src="/img/logo.png" alt="logo" width={279} height={98}></Image>
         </li>
         <li>
-          <Link href="https://www.instagram.com/estreladouromazzei/" className="botao">NOSSOS SERVIÇOS</Link>
+          <Link href="" className="botao">NOSSOS SERVIÇOS</Link>
         </li>
         <li>
           <Link href="" className="botao">NOSSA HISTÓRIA</Link>
