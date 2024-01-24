@@ -13,6 +13,18 @@
   }
 }
 
+::-webkit-scrollbar{
+  @apply w-2
+}
+
+::-webkit-scrollbar-track{
+  @apply bg-zinc-950
+}
+
+::-webkit-scrollbar-thumb{
+  @apply bg-yellow-500
+}
+
 @layer components {
   .cabecalho {
     @apply bg-zinc-950 pt-2 text-black font-semibold text-center sticky top-0 z-20;
@@ -66,7 +78,7 @@
     @apply bg-zinc-900 text-white;
 
     & ul {
-      @apply flex flex-row justify-center py-10 space-x-10;
+      @apply flex flex-row justify-center pt-10 space-x-10;
     }
   }
 
