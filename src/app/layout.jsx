@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <link rel="icon" href="/img/logo_site.png" />
-      <body className={mainFontFamily.className} class="bg-zinc-700">
+      <body className={mainFontFamily.className}>
         <Cabecalho />
         {children}
         <Rodape />
