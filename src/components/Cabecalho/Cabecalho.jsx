@@ -6,13 +6,13 @@ export default function Cabecalho() {
     <header className="cabecalho">
       <ul>
         <li>
-          <Image src="/img/logo.png" alt="logo" width={279} height={98}></Image>
+          <Image src="/img/logo.png" alt="logo" width={270} height={87}></Image>
         </li>
         <li>
-          <Link href="" className="botao">NOSSOS SERVIÇOS</Link>
+          <Link href="" className="botao">SERVIÇOS</Link>
         </li>
         <li>
-          <Link href="" className="botao">NOSSA HISTÓRIA</Link>
+          <Link href="" className="botao">HISTÓRIA</Link>
         </li>
         <li>
           <Link href="" className="botao">DEPOIMENTOS</Link>
