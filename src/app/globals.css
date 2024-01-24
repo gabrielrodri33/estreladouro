@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Icones";
+}
 
 @layer utilities {
   .reset {
@@ -12,7 +15,7 @@
 
 @layer components {
   .cabecalho {
-    @apply bg-zinc-950 pt-2 text-black font-semibold text-center;
+    @apply bg-zinc-950 pt-2 text-black font-semibold text-center sticky top-0 z-20;
 
     & ul {
       @apply flex flex-row text-lg items-center pb-2;
@@ -31,24 +34,44 @@
     }
   }
 
-  .separator{
+  .redessociais {
+    @apply justify-between;
+  }
+
+  .separator {
     @apply h-px border-t-0 bg-gradient-to-r from-transparent via-yellow-500 to-transparent opacity-25 dark:opacity-100;
   }
 
-  .page{
-    @apply bg-zinc-950 text-white text-center;
+  .fade {
+    @apply h-16 bg-gradient-to-b from-zinc-950  to-zinc-900 opacity-25 dark:opacity-100;
+  }
 
+  .pt1 {
+    @apply bg-zinc-950 text-white text-center;
+    /* 
       & div{
         @apply p-9;
-      }
+      } */
 
-      & h1 {
-        @apply font-bold pt-10 text-4xl;
+    & p {
+      @apply px-96 pt-8 text-xl;
+    }
+
+    & h1 {
+      @apply font-bold pt-10 text-4xl;
+    }
+  }
+
+  .pt2 {
+    @apply bg-zinc-900 text-white;
+
+    & ul {
+      @apply flex flex-row justify-center py-10 space-x-10;
     }
   }
 
   .rodape {
-    @apply w-full bottom-0 bg-zinc-950 text-white py-2 px-4 text-center text-lg absolute;
+    @apply w-full bottom-0 bg-zinc-950 text-white py-2 px-4 text-center text-lg;
     & a {
       @apply block  hover:bg-amber-400 py-1 px-3 rounded-md transition duration-300 ease-out;
     }
