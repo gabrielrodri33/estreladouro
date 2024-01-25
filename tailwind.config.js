@@ -7,6 +7,15 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    screens:{
+      '3sm': '250px',
+      '2sm':'450px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       spacing: {
         'h_img' : '37.5rem',
