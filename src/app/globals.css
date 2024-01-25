@@ -63,14 +63,9 @@
   }
 
   .pt1 {
-    @apply bg-zinc-950 text-white text-center;
-    /* 
-      & div{
-        @apply p-9;
-      } */
-
+    @apply bg-zinc-950 text-white text-center pt-10;
     & p {
-      @apply px-96 pt-8 text-xl;
+      @apply px-96 pt-8 pb-4 text-xl;
     }
   }
 
@@ -81,6 +76,7 @@
       @apply flex flex-row justify-center pt-10 space-x-10;
     }
   }
+
 
   .rodape {
     @apply w-full bottom-0 bg-zinc-950 text-white py-2 px-4 text-center text-lg;
