@@ -38,6 +38,10 @@
     }
   }
 
+  .titulo{
+    @apply flex flex-row justify-center font-bold text-5xl pb-6;
+  }
+
   .botao {
     @apply p-2 border border-gray-600 rounded-3xl bg-gradient-to-r from-yellow-500 to-yellow-600 transition-all duration-700 delay-100;
 
@@ -67,10 +71,6 @@
 
     & p {
       @apply px-96 pt-8 text-xl;
-    }
-
-    & h1 {
-      @apply font-bold pt-10 text-4xl;
     }
   }
 

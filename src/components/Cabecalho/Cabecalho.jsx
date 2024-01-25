@@ -9,7 +9,7 @@ export default function Cabecalho() {
           <Image src="/img/logo.png" alt="logo" width={270} height={87}></Image>
         </li>
         <li>
-          <Link href="" className="botao">SERVIÇOS</Link>
+          <Link href="#nossos_servicos" className="botao">SERVIÇOS</Link>
         </li>
         <li>
           <Link href="" className="botao">HISTÓRIA</Link>

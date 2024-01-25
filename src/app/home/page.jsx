@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       {/* Apresentação da oficina */}
-      <section className="pt1">
-        <h1>ESTRELA D'OURO IMPORTS</h1>
+      <section className="pt1 pt-10">
+        <h1 className="titulo">ESTRELA D'OURO IMPORTS</h1>
         <p className="pb-4">
           Somos especialistas na manutenção e revisão de veículos importados e
           nacionais. Nossa equipe qualificada está pronta para garantir a
@@ -119,8 +119,8 @@ export default function Home() {
 
       {/* Serviços da oficina */}
 
-      <section className="bg-zinc-950 pt-12 text-white pb-10">
-        <h1 className="flex flex-row justify-center font-bold text-5xl pb-6">
+      <section id="nossos_servicos" className="bg-zinc-950 pt-12 text-white pb-16">
+        <h1 className="titulo">
           Serviços
         </h1>
         <div className="flex flex-row justify-center items-center space-x-5">
@@ -310,22 +310,23 @@ export default function Home() {
 
       {/* História da oficina */}
 
-      <section className="bg-zinc-900 text-white">
-        <h1 className="flex justify-center">
+      <section className="bg-zinc-900 text-slate-400 py-10">
+        <h1 className="titulo">
           Nossa História
         </h1>
-        <p>
-          A Estrela D’Ouro Mecânica é uma oficina especializada em veículos nacionais e importados, localizada em duas unidades na Vila Mazzei, São Paulo.
+        <p className="px-96 pt-8 text-xl font-thin">
+          A Estrela D'Ouro Automotiva é uma oficina especializada em automóveis nacionais e importados, estabelecida em duas unidades na Vila Mazzei, São Paulo.
         </p>
 
-        <p>
-          Com mais de 35 anos de experiência e tradição, oferecemos uma estrutura diferenciada com equipamentos de primeira linha, proporcionando diagnósticos precisos e atendendo às necessidades específicas de cada cliente.
+        <p className="px-96 pt-8 text-xl font-thin">
+          Com mais de 35 anos de experiência e história, oferecemos uma estrutura diferenciada com equipamentos de última geração, garantindo diagnósticos precisos e atendendo às demandas específicas de cada cliente.
         </p>
 
-        <p>
-          Nosso compromisso é com a qualidade em todos os nossos serviços, mantendo-nos sempre atualizados com conhecimentos e tecnologias para melhor atender nossos clientes e acompanhar a evolução do mercado automotivo.
+        <p className="px-96 pt-8 text-xl font-thin">
+         Nosso comprometimento é com a excelência em todos os nossos serviços, mantendo-nos sempre atualizados com conhecimentos e tecnologias para melhor satisfazer nossos clientes e acompanhar a evolução do setor automotivo.
         </p>
       </section>
     </>
   );
 }
+
