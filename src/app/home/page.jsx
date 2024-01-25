@@ -172,7 +172,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="lg:flex-col sm:flex-col-reverse">
+          <div className="pb-10 mx-12">
             <ul>
               <li>
                 <p>Balanceamento</p>
@@ -216,20 +216,20 @@ export default function Home() {
           className="bg-zinc-900 text-slate-400 pt-10"
         >
           <h1 className="titulo">Nossa História</h1>
-          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-20">
+          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-10 2sm:px-8 3sm:px-2">
             A Estrela D Ouro Automotiva é uma oficina especializada em
             automóveis nacionais e importados, estabelecida em duas unidades na
             Vila Mazzei, São Paulo.
           </p>
 
-          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-20">
+          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-10 2sm:px-8 3sm:px-2">
             Com mais de 35 anos de experiência e história, oferecemos uma
             estrutura diferenciada com equipamentos de última geração,
             garantindo diagnósticos precisos e atendendo às demandas específicas
             de cada cliente.
           </p>
 
-          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-20 pb-12">
+          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-10 2sm:px-8 3sm:px-2 pb-12">
             Nosso comprometimento é com a excelência em todos os nossos
             serviços, mantendo-nos sempre atualizados com conhecimentos e
             tecnologias para melhor satisfazer nossos clientes e acompanhar a
