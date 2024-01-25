@@ -12,10 +12,10 @@ export default function Cabecalho() {
           <Link href="#nossos_servicos" className="botao">SERVIÇOS</Link>
         </li>
         <li>
-          <Link href="" className="botao">HISTÓRIA</Link>
+          <Link href="#nossa_historia" className="botao">HISTÓRIA</Link>
         </li>
         <li>
-          <Link href="" className="botao">DEPOIMENTOS</Link>
+          <Link href="#depoimentos" className="botao">DEPOIMENTOS</Link>
         </li>
         <li>
           <Link href='https://www.instagram.com/estreladouromazzei/' target="_blank">
