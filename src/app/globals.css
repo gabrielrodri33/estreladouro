@@ -13,16 +13,16 @@
   }
 }
 
-::-webkit-scrollbar{
-  @apply w-2
+::-webkit-scrollbar {
+  @apply w-2;
 }
 
-::-webkit-scrollbar-track{
-  @apply bg-zinc-950
+::-webkit-scrollbar-track {
+  @apply bg-zinc-950;
 }
 
-::-webkit-scrollbar-thumb{
-  @apply bg-yellow-500
+::-webkit-scrollbar-thumb {
+  @apply bg-yellow-500;
 }
 
 @layer components {
@@ -38,7 +38,7 @@
     }
   }
 
-  .titulo{
+  .titulo {
     @apply flex flex-row justify-center font-bold text-5xl pb-6;
   }
 
@@ -65,7 +65,7 @@
   .pt1 {
     @apply bg-zinc-950 text-white text-center pt-10;
     & p {
-      @apply px-96 pt-8 pb-4 text-xl;
+      @apply mx-auto pt-8 pb-4 text-xl px-40;
     }
   }
 
@@ -77,6 +77,25 @@
     }
   }
 
+  .pt3{
+    @apply bg-zinc-950 pt-12 text-white pb-16;
+
+    & div {
+      @apply flex flex-col lg:flex-row justify-center items-center space-x-5 ;
+
+      & ul{
+        @apply pl-10 list-disc space-y-4 mx-6;
+
+        & li {
+          @apply flex-row items-center space-x-2 list-item text-3xl xl:text-3xl lg:text-2xl;
+        }
+      }
+    } 
+  }
+
+  .imagens_logo{
+    @apply xl:h-32 xl:w-32 lg:h-24 lg:w-24 md:h-20 md:w-20
+  }
 
   .rodape {
     @apply w-full bottom-0 bg-zinc-950 text-white py-2 px-4 text-center text-lg;

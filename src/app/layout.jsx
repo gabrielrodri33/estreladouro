@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body className={mainFontFamily.className}>
         <Cabecalho />
         {children}
-        <Rodape />
+        {/* <Rodape /> */}
         </body>
     </html>
   );
