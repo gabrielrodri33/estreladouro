@@ -39,11 +39,11 @@
   }
 
   .titulo {
-    @apply flex flex-row justify-center font-bold text-5xl sm:text-5xl 2sm:text-4xl 4sm:text-3xl;
+    @apply flex flex-row justify-center font-bold text-5xl sm:text-5xl 2sm:text-4xl 4sm:text-3xl text-center;
   }
 
   .botao {
-    @apply xl:p-2 md:p-1 lg:visible ziro:invisible border border-gray-600 rounded-3xl bg-gradient-to-r from-yellow-500 to-yellow-600 transition-all duration-700 delay-100;
+    @apply xl:p-2 md:p-1 lg:visible invisible border border-gray-600 md:rounded-3xl bg-gradient-to-r from-yellow-500 to-yellow-600 transition-all duration-700 delay-100;
 
     &:hover {
       @apply bg-gradient-to-l p-3;
@@ -63,9 +63,9 @@
   }
 
   .pt1 {
-    @apply bg-zinc-950 text-white text-center pt-10;
+    @apply bg-zinc-950 text-white pt-10;
     & p {
-      @apply mx-auto pt-8 pb-4 text-xl px-40;
+      @apply pt-8 pb-4 2sm:text-xl sm:text-2xl text-lg text-center lg:px-40 md:px-32 sm:px-24 2sm:px-16 3sm:px-10 4sm:px-4;
     }
   }
 

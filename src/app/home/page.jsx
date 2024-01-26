@@ -6,7 +6,7 @@ export default function Home() {
       <div className="h-screen">
         {/* Apresentação da oficina */}
         <section className="pt1">
-          <h1 className="titulo">ESTRELA D OURO IMPORTS</h1>
+          <h1 className="titulo">ESTRELA D'OURO IMPORTS</h1>
           <p>
             Somos especialistas na manutenção e revisão de veículos importados e
             nacionais. Nossa equipe qualificada está pronta para garantir a
