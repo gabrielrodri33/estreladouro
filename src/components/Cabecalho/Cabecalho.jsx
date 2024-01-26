@@ -13,7 +13,7 @@ export default function Cabecalho() {
           height={87}
         ></Image>
         <div className="flex flex-row justify-center items-center" style={{ flex: 1 }}>
-          <ul className="flex md:flex-row flex-col text-xs md:text-lg md:items-center xl:space-x-52 lg:space-x-36 md:space-x-12 space-x-0">
+          <ul className="flex md:flex-row flex-col text-xs md:text-lg md:items-center xl:space-x-52 lg:space-x-36 md:space-x-12 space-x-0 resize-x">
             <li>
               <Link href="#nossos_servicos" className="botao">
                 SERVIÇOS
@@ -31,13 +31,14 @@ export default function Cabecalho() {
             </li>
           </ul>
         </div>
-        <ul className="flex ml-auto mr-4 space-x-8 items-center">
+        <ul className="flex ml-auto mr-4 space-x-8 items-center box-content">
           <li>
             <Link
               href="https://www.instagram.com/estreladouromazzei/"
               target="_blank"
             >
               <Image
+                className="h-auto w-12 resize-none"
                 src="/img/instagram.png"
                 alt="whatsapp"
                 width={50}
@@ -51,6 +52,7 @@ export default function Cabecalho() {
               target="_blank"
             >
               <Image
+                className="h-auto w-12 resize-none"
                 src="/img/whatsapp.png"
                 alt="whatsapp"
                 width={50}
