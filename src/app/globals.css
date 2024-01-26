@@ -27,13 +27,13 @@
 
 @layer components {
   .cabecalho {
-    @apply bg-zinc-950 pt-2 text-black font-bold text-center sticky top-0 z-20;
+    @apply bg-zinc-950 pt-5 text-black font-bold text-center sticky top-0 z-20;
 
     & ul {
-      @apply flex flex-row text-lg items-center pb-2;
+      @apply flex text-lg items-center pb-2;
 
       & li {
-        @apply mx-auto;
+        @apply lg:pr-0 pr-10;
       }
     }
   }
