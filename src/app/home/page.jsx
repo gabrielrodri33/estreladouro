@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-screen ">
+      <div className="h-screen">
         {/* Apresentação da oficina */}
         <section className="pt1">
           <h1 className="titulo">ESTRELA D OURO IMPORTS</h1>
@@ -99,7 +99,7 @@ export default function Home() {
             </li>
             <li>
               <Image
-                className="imagens_logo"  
+                className="imagens_logo"
                 src="/logo/logo_mini.png"
                 alt="logotipo_mini"
                 width={120}
@@ -131,10 +131,7 @@ export default function Home() {
 
         {/* Serviços da oficina */}
 
-        <section
-          id="nossos_servicos"
-          className="pt3"
-        >
+        <section id="nossos_servicos" className="pt3">
           <h1 className="titulo">Serviços</h1>
           <div className="pb-10 mx-12">
             <Image
@@ -216,20 +213,20 @@ export default function Home() {
           className="bg-zinc-900 text-slate-400 pt-10"
         >
           <h1 className="titulo">Nossa História</h1>
-          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-10 2sm:px-8 3sm:px-2">
+          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-20 2sm:px-12 3sm:px-8 4sm:px-1 sm:text-2xl 2sm:text-xl 4sm:text-lg">
             A Estrela D Ouro Automotiva é uma oficina especializada em
             automóveis nacionais e importados, estabelecida em duas unidades na
             Vila Mazzei, São Paulo.
           </p>
 
-          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-10 2sm:px-8 3sm:px-2">
+          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-20 2sm:px-12 3sm:px-8 4sm:px-1 sm:text-2xl 2sm:text-xl 4sm:text-lg">
             Com mais de 35 anos de experiência e história, oferecemos uma
             estrutura diferenciada com equipamentos de última geração,
             garantindo diagnósticos precisos e atendendo às demandas específicas
             de cada cliente.
           </p>
 
-          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-10 2sm:px-8 3sm:px-2 pb-12">
+          <p className="pt-8 text-2xl font-thin px-96 xl:px-56 lg:px-44 md:px-36 sm:px-20 2sm:px-12 3sm:px-8 4sm:px-1 pb-12 sm:text-2xl 2sm:text-xl 4sm:text-lg">
             Nosso comprometimento é com a excelência em todos os nossos
             serviços, mantendo-nos sempre atualizados com conhecimentos e
             tecnologias para melhor satisfazer nossos clientes e acompanhar a
@@ -242,11 +239,11 @@ export default function Home() {
 
         <section
           id="depoimentos"
-          className="bg-zinc-950 text-white pt-10 px-32"
+          className="bg-zinc-950 text-white pt-10 xl:px-32 lg:px-20 md:px-16 sm:px-12 2sm:px-8 3sm:px-6 4sm:px-4 ziro:px-2"
         >
-          <h1 className="titulo">Depoimentos</h1>
-          <ul className="xl:flex xl:flex-row justify-center pb-56 space-x-16 md:flex-col md:space-y-6">
-            <li className="max-w-96 p-5 border">
+          <h1 className="titulo pb-8">Depoimentos</h1>
+          <ul className="xl:flex xl:flex-row justify-center pb-56 lg:flex-col xl:space-x-10 xl:space-y-0 4sm:space-y-5">
+            <li className="p-5 border">
               <h2 className="flex justify-center font-semibold text-xl ">
                 Mastiguinha 2005
               </h2>
@@ -270,7 +267,7 @@ export default function Home() {
               </p>
               <p className="pb-4">Empresa séria, honesta, digna!</p>
             </li>
-            <li className="max-w-96 p-5 border">
+            <li className="p-5 border">
               <h2 className="flex justify-center font-semibold text-xl ">
                 Lucas Taha
               </h2>
@@ -286,11 +283,10 @@ export default function Home() {
                 minha Pajero Sport 98, eles são super atenciosos comigo e com o
                 carro, dia 21julho2022, precisei levar o carro guinchado da
                 cidade de Socorro até a oficina, liguei falei com o Senhor
-                Sérgio e prontamente pediu pra levar o carro, os filhos Anderson
-                e Diego também sempre prestativos.
+                Sérgio e prontamente pediu pra levar o carro, os filhos Anderson e Diego também sempre prestativos.
               </p>
             </li>
-            <li className="max-w-96 p-5 border">
+            <li className="p-5 border">
               <h2 className="flex justify-center font-semibold text-xl ">
                 Alvaro Rocha
               </h2>
@@ -301,15 +297,17 @@ export default function Home() {
                 width={155}
                 height={30}
               ></Image>
-              <p className="pb-4">
+              <p>
                 Venho aqui agradecer e elogiar o trabalho, atendimento e
                 respeito que recebi da oficina, em especial do Diogo, que além
                 de conhecer da profissão mecânico, é um excelente rapaz, educado
                 e preocupado com um bom resultado e satisfação do cliente,
                 graças a Deus encontrei uma oficina que respeita o cliente.
+              </p>
+              <p className="pb-4">
                 Serei um cliente fiel a partir de hoje. Que Deus abençoe os
                 profissionais que ali trabalham para garantir o melhor resultado
-                nos serviços prestados.
+                nos serviços prestados.
               </p>
             </li>
           </ul>
