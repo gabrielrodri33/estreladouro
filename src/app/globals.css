@@ -27,7 +27,7 @@
 
 @layer components {
   .cabecalho {
-    @apply bg-zinc-950 pt-2 text-black font-semibold text-center sticky top-0 z-20;
+    @apply bg-zinc-950 pt-2 text-black font-bold text-center sticky top-0 z-20;
 
     & ul {
       @apply flex flex-row text-lg items-center pb-2;
@@ -39,11 +39,11 @@
   }
 
   .titulo {
-    @apply flex flex-row justify-center font-bold text-5xl pb-6;
+    @apply flex flex-row justify-center font-bold text-5xl sm:text-5xl 2sm:text-4xl 4sm:text-3xl;
   }
 
   .botao {
-    @apply p-2 border border-gray-600 rounded-3xl bg-gradient-to-r from-yellow-500 to-yellow-600 transition-all duration-700 delay-100;
+    @apply xl:p-2 md:p-1 lg:visible ziro:invisible border border-gray-600 rounded-3xl bg-gradient-to-r from-yellow-500 to-yellow-600 transition-all duration-700 delay-100;
 
     &:hover {
       @apply bg-gradient-to-l p-3;
