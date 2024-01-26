@@ -8,6 +8,8 @@ module.exports = {
   ],
   theme: {
     screens:{
+      'ziro': '0px',
+      '4sm': '150px',
       '3sm': '250px',
       '2sm':'450px',
       'sm': '640px',
