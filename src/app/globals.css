@@ -73,7 +73,7 @@
     @apply bg-zinc-900 text-white;
 
     & ul {
-      @apply flex flex-row justify-center pt-10 space-x-10;
+      @apply flex flex-row justify-center pt-10 lg:space-x-10 md:space-x-8 sm:space-x-12 2sm:space-x-6 3sm:space-x-0;
     }
   }
 
@@ -81,20 +81,20 @@
     @apply bg-zinc-950 pt-12 text-white pb-16;
 
     & div {
-      @apply flex flex-col lg:flex-row justify-center items-center space-x-5 ;
+      @apply flex flex-col lg:flex-row justify-center space-x-5 ;
 
       & ul{
         @apply pl-10 list-disc space-y-4 mx-6;
 
         & li {
-          @apply flex-row items-center space-x-2 list-item text-3xl xl:text-3xl lg:text-2xl;
+          @apply flex-row space-x-2 list-item text-3xl xl:text-3xl lg:text-2xl;
         }
       }
     } 
   }
 
   .imagens_logo{
-    @apply xl:h-32 xl:w-32 lg:h-24 lg:w-24 md:h-20 md:w-20
+    @apply px-4 h-auto xl:w-32 lg:w-24 2sm:w-24 3sm:w-16 4sm:w-10 5sm:w-9
   }
 
   .rodape {
