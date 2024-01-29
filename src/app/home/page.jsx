@@ -21,71 +21,80 @@ export default function Home() {
         {/* Logotipos das marcas de carros */}
 
         <section className="pt2">
-          <ul>
-            <li>
-              <Image
-                className="imagens_logo"
-                src="/logo/logo_bmw.png"
-                alt="logotipo_bmw"
-                width={120}
-                height={120}
-              ></Image>
-            </li>
-            <li>
-              <Image
-                className="imagens_logo"
-                src="/logo/logo_mercedes.png"
-                alt="logotipo_mercedes"
-                width={120}
-                height={120}
-              ></Image>
-            </li>
-            <li>
-              <Image
-                className="imagens_logo"
-                src="/logo/logo_volks.png"
-                alt="logotipo_volkswagen"
-                width={120}
-                height={120}
-              ></Image>
-            </li>
-            <li>
-              <Image
-                className="imagens_logo"
-                src="/logo/logo_porsche.png"
-                alt="logotipo_porsche"
-                width={120}
-                height={120}
-              ></Image>
-            </li>
-            <li>
-              <Image
-                className="imagens_logo"
-                src="/logo/logo_volvo.png"
-                alt="logotipo_volvo"
-                width={120}
-                height={120}
-              ></Image>
-            </li>
-            <li>
-              <Image
-                className="imagens_logo"
-                src="/logo/logo_honda.png"
-                alt="logotipo_honda"
-                width={120}
-                height={120}
-              ></Image>
-            </li>
-            <li>
-              <Image
-                className="imagens_logo"
-                src="/logo/logo_mitsubishi.png"
-                alt="logotipo_mitsubishi"
-                width={120}
-                height={120}
-              ></Image>
-            </li>
-          </ul>
+          <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8">
+            <div>
+              <ul>
+                <li>
+                  <Image
+                    className="imagens_logo"
+                    src="/logo/logo_bmw.png"
+                    alt="logotipo_bmw"
+                    width={120}
+                    height={120}
+                  ></Image>
+                </li>
+                <li>
+                  <Image
+                    className="imagens_logo"
+                    src="/logo/logo_mercedes.png"
+                    alt="logotipo_mercedes"
+                    width={120}
+                    height={120}
+                  ></Image>
+                </li>
+                <li>
+                  <Image
+                    className="imagens_logo"
+                    src="/logo/logo_volks.png"
+                    alt="logotipo_volkswagen"
+                    width={120}
+                    height={120}
+                  ></Image>
+                </li>
+                <li>
+                  <Image
+                    className="imagens_logo"
+                    src="/logo/logo_porsche.png"
+                    alt="logotipo_porsche"
+                    width={120}
+                    height={120}
+                  ></Image>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <ul>
+                <li>
+                  <Image
+                    className="imagens_logo"
+                    src="/logo/logo_volvo.png"
+                    alt="logotipo_volvo"
+                    width={120}
+                    height={120}
+                  ></Image>
+                </li>
+                <li>
+                  <Image
+                    className="imagens_logo"
+                    src="/logo/logo_honda.png"
+                    alt="logotipo_honda"
+                    width={120}
+                    height={120}
+                  ></Image>
+                </li>
+                <li>
+                  <Image
+                    className="imagens_logo"
+                    src="/logo/logo_mitsubishi.png"
+                    alt="logotipo_mitsubishi"
+                    width={120}
+                    height={120}
+                  ></Image>
+                </li>
+              </ul>
+            </div>
+          </div>
 
           <ul>
             <li>
@@ -132,10 +141,10 @@ export default function Home() {
         {/* Serviços da oficina */}
 
         <section id="nossos_servicos" className="pt3">
-          <h1 className="titulo">Serviços</h1>
-          <div className="pb-10 mx-12">
+          <h1 className="titulo pb-6">Serviços</h1>
+          <div className="pb-10 mx-12 items-center">
             <Image
-              className="rounded-lg h-[h_img] w-auto lg:h-96 md:h-90"
+              className="rounded-lg h-[h_img] w-auto lg:h-96 md:h-90 items-center"
               src="/img/servicos1.jpg"
               alt="mecanico"
               width={600}
@@ -283,7 +292,8 @@ export default function Home() {
                 minha Pajero Sport 98, eles são super atenciosos comigo e com o
                 carro, dia 21julho2022, precisei levar o carro guinchado da
                 cidade de Socorro até a oficina, liguei falei com o Senhor
-                Sérgio e prontamente pediu pra levar o carro, os filhos Anderson e Diego também sempre prestativos.
+                Sérgio e prontamente pediu pra levar o carro, os filhos Anderson
+                e Diego também sempre prestativos.
               </p>
             </li>
             <li className="p-5 border">
