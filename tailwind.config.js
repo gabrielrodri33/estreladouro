@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     screens:{
       'ziro': '0px',
+      '5sm': '75px',
       '4sm': '150px',
       '3sm': '250px',
       '2sm':'450px',
@@ -23,6 +24,7 @@ module.exports = {
         'h_img' : '37.5rem',
         'w_img': '24rem',
         '90': '23rem',
+        '18_logo': '72px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
