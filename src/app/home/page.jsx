@@ -253,7 +253,7 @@ export default function Home() {
           className="bg-zinc-950 text-white pt-10 xl:px-32 lg:px-20 md:px-16 sm:px-12 2sm:px-8 3sm:px-6 4sm:px-2 px-0"
         >
           <h1 className="titulo pb-8">Depoimentos</h1>
-          <ul className="xl:flex xl:flex-row justify-center pb-56 lg:flex-col xl:space-x-10 xl:space-y-0 4sm:space-y-5">
+          <ul className="xl:flex xl:flex-row justify-center pb-20 lg:flex-col xl:space-x-10 xl:space-y-0 4sm:space-y-5">
             <li className="3sm:p-5 px-2 pt-4 border">
               <h2 className="flex justify-center font-semibold text-xl text-center">
                 Mastiguinha 2005
@@ -323,6 +323,20 @@ export default function Home() {
               </p>
             </li>
           </ul>
+        </section>
+        {/* relative h-0 overflow-hidden pb-3/4 */}
+        <section className="bg-zinc-800">
+          <div className="">
+            <iframe
+              className=""
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.843482867402!2d-46.59714299999999!3d-23.4661096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef67975ba4275%3A0xca7afc39fdc16c0b!2sAv.%20Mazzei%2C%201882%20-%20Vila%20Nova%20Mazzei%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002310-002!5e0!3m2!1spt-BR!2sbr!4v1706647303474!5m2!1spt-BR!2sbr"
+              width={600}
+              height={450}
+              allowfullscreen={true}
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </section>
       </div>
     </>
