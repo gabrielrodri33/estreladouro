@@ -39,7 +39,7 @@
   }
 
   .titulo {
-    @apply flex flex-row justify-center font-bold text-5xl sm:text-5xl 2sm:text-4xl 4sm:text-3xl text-center;
+    @apply flex flex-row justify-center font-bold text-5xl sm:text-5xl 2sm:text-4xl 4sm:text-2xl 5sm:text-xl text-center;
   }
 
   .botao {
@@ -81,13 +81,13 @@
     @apply bg-zinc-950 pt-12 text-white pb-16;
 
     & div {
-      @apply flex flex-col lg:flex-row justify-center space-x-5 ;
+      @apply text-white;
 
       & ul{
-        @apply pl-10 list-disc space-y-4 mx-6;
+        @apply list-disc space-y-4 3sm:mx-6 mx-1;
 
         & li {
-          @apply flex-row space-x-2 list-item text-3xl xl:text-3xl lg:text-2xl;
+          @apply flex-row space-x-2 list-item text-3xl xl:text-3xl sm:text-2xl 4sm:text-xl 5sm:text-base;
         }
       }
     } 

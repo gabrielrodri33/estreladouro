@@ -142,9 +142,9 @@ export default function Home() {
 
         <section id="nossos_servicos" className="pt3">
           <h1 className="titulo pb-6">Serviços</h1>
-          <div className="pb-10 mx-12 items-center">
+          <div className="pb-10 mx-10 flex flex-col lg:flex-row md:justify-center lg:space-x-10">
             <Image
-              className="rounded-lg h-[h_img] w-auto lg:h-96 md:h-90 items-center"
+              className="rounded-xl h-auto w-auto justify-center pb-7"
               src="/img/servicos1.jpg"
               alt="mecanico"
               width={600}
@@ -178,40 +178,42 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="pb-10 mx-12">
-            <ul>
-              <li>
-                <p>Balanceamento</p>
-              </li>
-              <li>
-                <p>Alinhamento</p>
-              </li>
-              <li>
-                <p>Troca de Óleo</p>
-              </li>
-              <li>
-                <p>Manutenção de Embreagem</p>
-              </li>
-              <li>
-                <p>Sistema de Arrefecimento</p>
-              </li>
-              <li>
-                <p>Revisão de Freio</p>
-              </li>
-              <li>
-                <p>Amortecedor</p>
-              </li>
-              <li>
-                <p>Filtros e Radiador</p>
-              </li>
-            </ul>
-            <Image
-              className="rounded-lg h-[h_img] w-auto lg:h-96 md:h-90"
-              src="/img/servicos2.jpg"
-              alt="mecanico"
-              width={600}
-              height={400}
-            ></Image>
+          <div className="pt-3 pb-10 mx-10">
+            <div className="flex flex-col-reverse lg:flex-row md:justify-center space-x-0 lg:space-x-5">
+              <ul>
+                <li>
+                  <p>Balanceamento</p>
+                </li>
+                <li>
+                  <p>Alinhamento</p>
+                </li>
+                <li>
+                  <p>Troca de Óleo</p>
+                </li>
+                <li>
+                  <p>Manutenção de Embreagem</p>
+                </li>
+                <li>
+                  <p>Sistema de Arrefecimento</p>
+                </li>
+                <li>
+                  <p>Revisão de Freio</p>
+                </li>
+                <li>
+                  <p>Amortecedor</p>
+                </li>
+                <li className="pb-7">
+                  <p>Filtros e Radiador</p>
+                </li>
+              </ul>
+              <Image
+                className="rounded-xl pb-7 w-auto h-auto mx-auto"
+                src="/img/servicos2.jpg"
+                alt="mecanico"
+                width={600}
+                height={400}
+              ></Image>
+            </div>
           </div>
         </section>
 
@@ -248,12 +250,12 @@ export default function Home() {
 
         <section
           id="depoimentos"
-          className="bg-zinc-950 text-white pt-10 xl:px-32 lg:px-20 md:px-16 sm:px-12 2sm:px-8 3sm:px-6 4sm:px-4 ziro:px-2"
+          className="bg-zinc-950 text-white pt-10 xl:px-32 lg:px-20 md:px-16 sm:px-12 2sm:px-8 3sm:px-6 4sm:px-2 px-0"
         >
           <h1 className="titulo pb-8">Depoimentos</h1>
           <ul className="xl:flex xl:flex-row justify-center pb-56 lg:flex-col xl:space-x-10 xl:space-y-0 4sm:space-y-5">
-            <li className="p-5 border">
-              <h2 className="flex justify-center font-semibold text-xl ">
+            <li className="3sm:p-5 px-2 pt-4 border">
+              <h2 className="flex justify-center font-semibold text-xl text-center">
                 Mastiguinha 2005
               </h2>
               <Image
@@ -276,8 +278,8 @@ export default function Home() {
               </p>
               <p className="pb-4">Empresa séria, honesta, digna!</p>
             </li>
-            <li className="p-5 border">
-              <h2 className="flex justify-center font-semibold text-xl ">
+            <li className="3sm:p-5 px-2 pt-4 border">
+              <h2 className="flex justify-center font-semibold text-xl text-center">
                 Lucas Taha
               </h2>
               <Image
@@ -296,8 +298,8 @@ export default function Home() {
                 e Diego também sempre prestativos.
               </p>
             </li>
-            <li className="p-5 border">
-              <h2 className="flex justify-center font-semibold text-xl ">
+            <li className="3sm:p-5 px-2 pt-4 border">
+              <h2 className="flex justify-center font-semibold text-xl text-center">
                 Alvaro Rocha
               </h2>
               <Image
