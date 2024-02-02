@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="h-screen">
+      <div className="min h-screen flex flex-col">
         {/* Apresentação da oficina */}
         <section className="pt1">
           <h1 className="titulo">ESTRELA D OURO IMPORTS</h1>
@@ -327,54 +327,57 @@ export default function Home() {
         </section>
         {/* relative h-0 overflow-hidden pb-3/4 */}
         <section className="bg-zinc-800 py-5">
-          <div className="flex items-center justify-center sm:my-16 xl:mx-32 lg:mx-24 md:mx-16 sm:mx-12 mx-0">
-            <Link
-              href="https://maps.app.goo.gl/auZvUSr2HXAfqTzf6"
-              className="bg-gradient-to-r from-yellow-500 to-yellow-600 h-96 w-full"
-              target="_blank"
-            >
-              <iframe
-                className="2sm:ring-2 2sm:ring-yellow-500 h-full w-full"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.843482867402!2d-46.59714299999999!3d-23.4661096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef67975ba4275%3A0xca7afc39fdc16c0b!2sAv.%20Mazzei%2C%201882%20-%20Vila%20Nova%20Mazzei%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002310-002!5e0!3m2!1spt-BR!2sbr!4v1706647303474!5m2!1spt-BR!2sbr"
-                width={600}
-                height={450}
-                allowfullscreen={true}
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </Link>
-          </div>
-        </section>
-      </div>
-    </>
-  );
-}
-
-{
-  /* <section className="bg-zinc-800 py-5">
-          <div className="flex items-center justify-center">
+          <div className="items-center justify-center sm:my-16 xl:mx-32 lg:mx-24 md:mx-16 sm:mx-12 2sm:mx-10 3sm:mx-8 mx-3">
             <iframe
-              className="h-auto rounded-xl ring-2 ring-yellow-500 shadow-md shadow-white"
+              className="ring-2 ring-yellow-500 h-64 w-full"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.843482867402!2d-46.59714299999999!3d-23.4661096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef67975ba4275%3A0xca7afc39fdc16c0b!2sAv.%20Mazzei%2C%201882%20-%20Vila%20Nova%20Mazzei%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002310-002!5e0!3m2!1spt-BR!2sbr!4v1706647303474!5m2!1spt-BR!2sbr"
-              width={600}
-              height={450}
               allowfullscreen={true}
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-            <Link
-              href="https://maps.app.goo.gl/auZvUSr2HXAfqTzf6"
-              className="bg-gradient-to-r from-yellow-500 to-yellow-600 border-2 border-gray-600 ml-6 rounded-full"
-              target="_blank"
-            >
-              <Image
-                className="h-auto md:w-12 w-9 resize-none"
-                src="/img/pin.png"
-                alt="whatsapp"
-                width={50}
-                height={50}
-              ></Image>
-            </Link>
+            <ul className="flex flex-row items-center justify-center pt-6 space-x-12">
+              <li>
+                <Link
+                  href="https://maps.app.goo.gl/auZvUSr2HXAfqTzf6"
+                  className=""
+                  target="_blank"
+                >
+                  <Image
+                    className="h-auto md:w-12 w-9 resize-none"
+                    src="/img/google-maps.png"
+                    alt="whatsapp"
+                    width={65}
+                    height={65}
+                  ></Image>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://ul.waze.com/ul?ll=-23.46601183%2C-46.59713745&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+                  className=""
+                  target="_blank"
+                >
+                  <Image
+                    className="h-auto md:w-12 w-10 resize-none"
+                    src="/img/waze.png"
+                    alt="whatsapp"
+                    width={65}
+                    height={65}
+                  ></Image>
+                </Link>
+              </li>
+            </ul>
           </div>
-        </section> */
+        </section>
+
+        <footer className="w-full text-center p-4 text-white bg-zinc-950">
+          <div>
+            <p>
+              © Todos os direitos reservados | Desenvolvido por: gabrielrodri33
+            </p>
+          </div>
+        </footer>
+      </div>
+    </>
+  );
 }
