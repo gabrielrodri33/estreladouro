@@ -94,7 +94,7 @@
   }
 
   .imagens_logo{
-    @apply px-4 h-auto xl:w-32 lg:w-24 2sm:w-24 3sm:w-16 4sm:w-10 5sm:w-9
+    @apply px-4 h-auto 2xl:w-40 xl:w-36 lg:w-28 2sm:w-24 3sm:w-20 4sm:w-14 5sm:w-9
   }
 
 }
