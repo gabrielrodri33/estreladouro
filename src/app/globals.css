@@ -97,10 +97,4 @@
     @apply px-4 h-auto xl:w-32 lg:w-24 2sm:w-24 3sm:w-16 4sm:w-10 5sm:w-9
   }
 
-  .rodape {
-    @apply w-full bottom-0 bg-zinc-950 text-white py-2 px-4 text-center text-lg;
-    & a {
-      @apply block  hover:bg-amber-400 py-1 px-3 rounded-md transition duration-300 ease-out;
-    }
-  }
 }
