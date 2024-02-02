@@ -5,14 +5,19 @@ export default function Cabecalho() {
   return (
     <header className="bg-zinc-950 md:font-bold text-center sticky top-0 z-20 pt-7">
       <div className="flex pb-5">
-        <Image
-          className="justify-start h-auto w-28 xl:w-64 lg:w-60 md:w-56 sm:w-48 2sm:w-48 3sm:w-36 4sm:w-32"
-          src="/img/logo.png"
-          alt="logo"
-          width={270}
-          height={87}
-        ></Image>
-        <div className="flex-row justify-center items-center hidden md:flex" style={{ flex: 1 }}>
+        <Link href="/home">
+          <Image
+            className="justify-start h-auto w-28 xl:w-64 lg:w-60 md:w-56 sm:w-48 2sm:w-48 3sm:w-36 4sm:w-32"
+            src="/img/logo.png"
+            alt="logo"
+            width={270}
+            height={87}
+          ></Image>
+        </Link>
+        <div
+          className="flex-row justify-center items-center hidden md:flex"
+          style={{ flex: 1 }}
+        >
           <ul className="flex md:flex-row flex-col text-xs md:text-lg md:items-center xl:space-x-52 lg:space-x-36 md:space-x-12 space-x-0 resize-x">
             <li>
               <Link href="#nossos_servicos" className="botao">
