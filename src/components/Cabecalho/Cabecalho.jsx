@@ -20,17 +20,17 @@ export default function Cabecalho() {
         >
           <ul className="flex md:flex-row flex-col text-xs md:text-lg md:items-center xl:space-x-52 lg:space-x-36 md:space-x-12 space-x-0 resize-x">
             <li>
-              <Link href="#nossos_servicos" className="botao">
+              <Link href="/home/#nossos_servicos" className="botao">
                 SERVIÇOS
               </Link>
             </li>
             <li>
-              <Link href="#nossa_historia" className="botao">
+              <Link href="/home/#nossa_historia" className="botao">
                 HISTÓRIA
               </Link>
             </li>
             <li>
-              <Link href="#depoimentos" className="botao">
+              <Link href="/home/#depoimentos" className="botao">
                 DEPOIMENTOS
               </Link>
             </li>
@@ -53,7 +53,7 @@ export default function Cabecalho() {
           </li>
           <li>
             <Link
-              href="https://www.instagram.com/estreladouromazzei/"
+              href="https://api.whatsapp.com/send?phone=551129967740"
               target="_blank"
             >
               <Image
