@@ -39,7 +39,7 @@ export default function Cabecalho() {
         <ul className="flex ml-auto mr-4 space-x-8 items-center box-content">
           <li>
             <Link
-              href="https://www.instagram.com/estreladouromazzei/"
+              href="https://www.instagram.com/estrelaimportsmazzei/"
               target="_blank"
             >
               <Image
